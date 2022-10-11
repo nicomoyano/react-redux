@@ -10,7 +10,7 @@ const ToDoList = ({ toDos, onClickToDo }) => {
         {toDos.map((toDo, index) => (
           <ToDo
             key={index}
-            {...toDo} //id,text,completed
+            {...toDo} // id,text,completed
             onClick={() => onClickToDo(toDo.id)}
           />
         ))}
