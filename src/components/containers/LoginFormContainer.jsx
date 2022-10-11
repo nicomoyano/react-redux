@@ -26,4 +26,5 @@ const LoginFormContainer = connect(
   mapStateToProps,
   mapDispatchToProps
 )(LoginForm);
+
 export default LoginFormContainer;
